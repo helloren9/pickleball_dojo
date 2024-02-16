@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #420303;
+}
+
+.navbar-brand {
+    font-family: "Stick", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 40px;
+}
+
+.nav-link {
+    font-family: "Stick", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+}
+
+.jumbotron {
+    background-image: url("images/ball-racket-net.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin-bottom: 0px;
+}
+
+.jumbotron-2 {
+    padding-bottom: 20px;
+    background-image: url("images/pickle-ninja.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.display-4 {
+    font-family: "Stick", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #420303;
+    padding-top: 20px;
+}
+
+.display-1 {
+    font-family: "Stick", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding-top: 40px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.display-2 {
+    font-family: "Stick", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding-top: 40px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: 70px;
+}
+
+.footer {
+    height: 250px;
+    background-color: #420303;
+    color: white;
+    padding-top: 50px;
+}
+
+.map-img {
+    height: 180px;
+}
+
+.location {
+    height: 15px;
+    padding-right: 5px;
+}
+
+.mail-icon {
+    height: 15px;
+    padding-right: 5px;
+}
+
+.phone {
+    height: 15px;
+    padding-right: 5px;
+}
+
+.list-unstyled li a {
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 10px;
+    
+}
