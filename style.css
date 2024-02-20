@@ -104,7 +104,55 @@ html {
 }
 
 .about-pg {
-    background-image: url('images/about-bg.jpg');
+    background-image: url('images/rackets-balls-landing.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
+
+.about-pg h3 {
+    color: #420303;
+    padding: 20px;
+    font-family: "Stick", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-top: 40px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #420303;
+    font-size: 40px;
+}
+
+.pricing-pg {
+    background-image: url('images/racket-ball-on-court.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pricing-pg h3 {
+    color: white;
+    padding: 20px;
+    font-family: "Stick", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 40px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #420303;
+    font-size: 30px;
+}
+
+.prices h3 {
+    padding-left: 400px;
+}
+
+.book-btn {
+    background-color: white;
+    color: #420303;
+    border: 2px solid #420303;
+    padding: 16px 32px;
+    font-weight: 700;
+    margin-left: 500px;
+}
+
+.book-btn:hover {
+    background-color: #420303;
+    color: white;
+} 
