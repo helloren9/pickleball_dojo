@@ -2,6 +2,12 @@ html {
     scroll-behavior: smooth;
 }
 
+a:hover {
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #420303;
+}
+
 .navbar {
     background-color: #420303;
 }
@@ -20,6 +26,12 @@ html {
     font-style: normal;
     color: white;
     font-size: 20px;
+}
+
+.nav-link:hover {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #420303;
 }
 
 .jumbotron {
@@ -103,6 +115,12 @@ html {
     
 }
 
+.list-unstyled li a:hover {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #420303;
+}
+
 .about-pg {
     background-image: url('images/rackets-balls-landing.jpg');
     background-size: cover;
@@ -156,3 +174,88 @@ html {
     background-color: #420303;
     color: white;
 } 
+
+.login-pg {
+    background-image: url('images/blue-court.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.login-form {
+    width: 50%;
+    margin: auto;
+    background-color: #420303;
+    margin-top: 50px;
+    padding: 20px;
+    color: white;
+    font-family: "Stick", sans-serif;
+}
+
+.login-form input {
+    margin-bottom: 10px;
+}
+
+.email-input {
+    margin-left: 32px;
+}
+
+.form-container {
+    margin-left: 150px;
+}
+
+.login-btn {
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login-btn:hover {
+    background-color: #420303;
+    color: white;
+}
+
+.join-pg {
+    background-image: url('images/racket-three-balls.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.join-pg form {
+    background-color: #420303;
+    margin-top: 50px;
+    padding: 20px;
+    color: white;
+    font-family: "Stick", sans-serif;
+    width: 60%;
+    margin-left: 210px;
+}
+
+.join-container {
+    margin-left: 120px;
+    padding: 20px;
+}
+
+.join-container input {
+    margin-bottom: 10px;
+}
+
+.join-email {
+    margin-left: 42px;
+}
+
+.join-lname {
+    margin-left: 3px;
+}
+
+.join-pw {
+    margin-left: 17px;
+}
+
+.join-btn {
+    margin-left: 150px;
+}
+
+.join-btn:hover {
+    background-color: #420303;
+    color: white;
+}
